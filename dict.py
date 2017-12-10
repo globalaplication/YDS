@@ -12,4 +12,6 @@ def sozluk(string):
 		if string in extend:
 			return test[0]
 		if test[0] == string:
-			return test[1:]
+			for extend in test[1:]:
+				extend = extend + extend
+			return extend.split(',')
