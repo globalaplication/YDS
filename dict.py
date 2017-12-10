@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 #!/usr/bin/env python
-file = open('data.mmsql')
+file = open('dict.data')
 source = file.read()
 source = source.splitlines()
 ing = [ing.split(':')[0] for ing in source]
